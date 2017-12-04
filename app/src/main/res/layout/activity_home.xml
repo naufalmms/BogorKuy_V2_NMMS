@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.s.m.marzuk.n.bogorkuy.Home">
+
+    <ImageView
+        android:id="@+id/imgv1"
+        android:padding="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/logo123"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/liner1"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="-40dp"
+        ></RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgv1"
+        android:layout_marginTop="-30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp">
+
+        <Button
+            android:id="@+id/btmenu1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bulat4"
+            android:text="Lihat Bogor Yuk"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btmenu2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bulat4"
+            android:text="Sejarah Bogor"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btmenu3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bulat4"
+            android:text="About This App"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btmenu4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bulat4"
+            android:text="Rate This App"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Naufal MMS - 089620008929"
+        android:textColor="#ffff"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+
+        />
+
+</RelativeLayout>
